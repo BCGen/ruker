@@ -1,14 +1,14 @@
 # vue-check
 vscode ts-check and eslint setting files
 
-## js type checking in VS Code ##
+## Js Type Checking in VS Code ##
 [PLEASE READ](https://code.visualstudio.com/docs/languages/javascript#_type-checking)
 
-## choose one bwtween two options
+## Choose One Bwtween Two Options
 - add ``// @ts-check`` on the top in js files.
 - add ``"javascript.implicitProjectConfig.checkJs": true`` in vscode settings.
 
-## type command in terminal step by step
+## Type Command in Terminal Step by Step
 1. npm -D eslint eslint-plugin-import eslint-plugin-vue
 2. eslint --init
 3. choose: Use a popular style guide 
