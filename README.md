@@ -2,7 +2,7 @@
 vscode ts-check and eslint setting files
 
 ## js type checking in VS Code ##
-[please read](https://code.visualstudio.com/docs/languages/javascript#_type-checking)
+[PLEASE READ](https://code.visualstudio.com/docs/languages/javascript#_type-checking)
 
 ## choose one bwtween two options
 - add ``// @ts-check`` on the top in js files.
