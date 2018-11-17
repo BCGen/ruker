@@ -1,0 +1,41 @@
+{
+    "extends": ["standard", "plugin:vue/base"],
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "sourceType": "module",
+        "allowImportExportEverywhere": false
+    },
+    "rules": {
+        "comma-dangle": "off",
+        "import/no-extraneous-dependencies": ["error", {
+            "devDependencies": true
+        }],
+        "no-new": 0,
+        "indent": ["error", 4],
+        "space-before-function-paren": "off",
+        "semi": ["error", "always"],
+        "import/no-unresolved": ["error", 1],
+        "vue/html-indent": ["error", 4, {
+            "baseIndent": 1
+        }],
+        "vue/script-indent": ["error", 4, {
+            "baseIndent": 1
+        }]
+    },
+    "env": {
+        "node": true,
+        "es6": true,
+        "jasmine": true
+    },
+    "overrides": [{
+        "files": ["*.vue"],
+        "rules": {
+            "indent": "off"
+        }
+    }],
+    "globals": {
+        "axios": false,
+        "Vue": false
+    }
+}
