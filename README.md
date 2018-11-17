@@ -5,7 +5,7 @@ vscode ts-check and eslint setting files
 [PLEASE READ](https://code.visualstudio.com/docs/languages/javascript#_type-checking)
 
 ## Choose One Bwtween Two Options
-- add ``// @ts-check`` on the top in js files.
+- add ``// @ts-check`` on the top of js files.
 - add ``"javascript.implicitProjectConfig.checkJs": true`` in VS Code settings.
 
 ## Type Command in Terminal Step by Step
