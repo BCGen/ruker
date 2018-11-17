@@ -8,6 +8,8 @@ Read [VS Code - type checking in JS files](https://code.visualstudio.com/docs/la
 - add ``"javascript.implicitProjectConfig.checkJs": true`` in vscode settings.
 
 ## type below command in terminal step by step:
-1. **npm -D eslint eslint-plugin-import eslint-plugin-vue**.
-2. **eslint --init** -> **Use a popular style guide** -> **Standard**.
-3. put **.eslintrc.json**, **jsconfig.json**, **types** in workspace root folder or JS res root folder.
+1. npm -D eslint eslint-plugin-import eslint-plugin-vue
+2. eslint --init
+3. choose: Use a popular style guide 
+4. choose: Standard
+5. put **.eslintrc.json**, **jsconfig.json**, **types** in workspace root folder or JS res root folder
