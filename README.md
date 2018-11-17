@@ -6,7 +6,7 @@ Read [VS Code - type checking in JS files](https://code.visualstudio.com/docs/la
 ## choose one bwtween two options
 
 - add ``// @ts-check`` on the top in js files.
-or
+<br>or
 - add ``"javascript.implicitProjectConfig.checkJs": true`` in vscode settings
 
 ## type below command in terminal step by step:
