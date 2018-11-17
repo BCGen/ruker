@@ -6,7 +6,7 @@ vscode ts-check and eslint setting files
 
 ## Choose One Bwtween Two Options
 - add ``// @ts-check`` on the top in js files.
-- add ``"javascript.implicitProjectConfig.checkJs": true`` in vscode settings.
+- add ``"javascript.implicitProjectConfig.checkJs": true`` in VS Code settings.
 
 ## Type Command in Terminal Step by Step
 1. npm -D eslint eslint-plugin-import eslint-plugin-vue
