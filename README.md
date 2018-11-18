@@ -9,7 +9,7 @@ VS Code ts-check and eslint setting files
 - add ``"javascript.implicitProjectConfig.checkJs": true`` in VS Code settings.
 
 ## Type Command in Terminal Step by Step
-1. npm -D eslint eslint-plugin-import eslint-plugin-vue
+1. npm i -D eslint eslint-plugin-import eslint-plugin-vue
 2. eslint --init
 3. choose: Use a popular style guide 
 4. choose: Standard
