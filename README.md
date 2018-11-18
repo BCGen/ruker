@@ -14,4 +14,6 @@ VS Code ts-check and eslint setting files
 2. npx eslint --init
 3. choose: Use a popular style guide 
 4. choose: Standard
+5. choose: JSON
+6. type: ``y`` or ``yes``
 5. put **.eslintrc.json**, **jsconfig.json**, **types** in workspace root folder or JS res root folder
