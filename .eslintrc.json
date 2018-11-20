@@ -1,20 +1,14 @@
 {
-    "root": true,
     "extends": ["standard", "plugin:vue/base"],
     "rules": {
-        "comma-dangle": "off",
         "import/no-extraneous-dependencies": ["error", {
             "devDependencies": true
         }],
         "no-new": 0,
-        "indent": ["error", 4],
         "space-before-function-paren": "off",
-        "semi": ["error", "always"],
         "import/no-unresolved": ["error", 1],
-        "vue/html-indent": ["error", 4, {
-            "baseIndent": 1
-        }],
-        "vue/script-indent": ["error", 4, {
+        "vue/html-indent": ["error", 2],
+        "vue/script-indent": ["error", 2, {
             "baseIndent": 1
         }]
     },
