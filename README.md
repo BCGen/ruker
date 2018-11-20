@@ -1,5 +1,5 @@
 # vue-check
-VS Code ts-check and eslint setting files
+VS Code ts-check, eslint, stylelint settings.
 
 ## JavaScript Type Checking in VS Code ##
 [PLEASE READ](https://code.visualstudio.com/docs/languages/javascript#_type-checking)
@@ -10,10 +10,10 @@ VS Code ts-check and eslint setting files
 
 ## Type Command in Terminal Step by Step
 1. run ``npm init`` or ``npm init -y`` if you don't have package.json
-1. npm i -D eslint eslint-plugin-import eslint-plugin-vue
+1. npm i -D eslint eslint-plugin-import eslint-plugin-vue stylelint-config-standard
 2. npx eslint --init
 3. choose: Use a popular style guide 
 4. choose: Standard
 5. choose: JSON
 6. type: ``y`` or ``yes``
-5. put **.eslintrc.json**, **jsconfig.json**, **types** in workspace root folder or JS res root folder
+5. put all files and forder in workspace root or resources folders.
