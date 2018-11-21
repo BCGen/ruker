@@ -10,7 +10,7 @@ VS Code ts-check, eslint, stylelint settings.
 
 ## Type Command in Terminal Step by Step
 1. run ``npm init`` or ``npm init -y`` if you don't have package.json
-1. npm i -D eslint eslint-plugin-import eslint-plugin-vue stylelint-config-standard
+1. npm i --save-dev eslint eslint-plugin-import eslint-plugin-vue stylelint-config-standard
 2. npx eslint --init
 3. choose: Use a popular style guide 
 4. choose: Standard
