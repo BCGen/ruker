@@ -1,5 +1,5 @@
 {
-  "name": "vue-check",
+  "name": "eslint-config-bc",
   "version": "1.0.0",
   "description": "VS Code ts-check, eslint, stylelint settings.",
   "main": "index.js",
