@@ -1,26 +1,23 @@
 {
-  "name": "vue-check",
-  "version": "1.0.0",
-  "description": "VS Code ts-check, eslint, stylelint settings.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BCGen/vue-check.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BCGen/vue-check/issues"
-  },
-  "homepage": "https://github.com/BCGen/vue-check#readme",
-  "devDependencies": {
-    "eslint": "^5.9.0"
-  },
-  "resolutions": {
-    "eslint": "^5.9.0"
-  }
+    "name": "vue-check",
+    "version": "1.0.0",
+    "description": "VS Code ts-check, eslint, stylelint settings.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BCGen/vue-check.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BCGen/vue-check/issues"
+    },
+    "homepage": "https://github.com/BCGen/vue-check#readme",
+    "dependencies": {
+        "babel-eslint": "^10.0.1"
+    }
 }
