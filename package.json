@@ -20,7 +20,7 @@
   "dependencies": {
     "eslint": "^5.9.0"
   },
-  "peerDependencies": {
+  "resolutions": {
     "eslint": "^5.9.0"
   }
 }
