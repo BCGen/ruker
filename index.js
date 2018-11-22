@@ -1,5 +1,5 @@
 module.exports = {
-  "extends": ["standard", "vue-lint.yml"],
+  "extends": ["standard", "./vue-lint.yml"],
   "rules": {
     "import/no-extraneous-dependencies": ["error", {
       "devDependencies": true
