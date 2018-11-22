@@ -17,7 +17,7 @@
     "url": "https://github.com/BCGen/vue-check/issues"
   },
   "homepage": "https://github.com/BCGen/vue-check#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^5.9.0"
   },
   "peerDependencies": {
