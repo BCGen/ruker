@@ -19,5 +19,6 @@
     "homepage": "https://github.com/BCGen/vue-check#readme",
     "dependencies": {
         "babel-eslint": "^10.0.1"
+        
     }
 }
