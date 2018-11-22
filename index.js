@@ -1,0 +1,1 @@
+const eslint = require('eslint')
