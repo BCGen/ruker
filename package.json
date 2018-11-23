@@ -8,7 +8,7 @@
     "url": "https://github.com/BCGen/vue-check"
   },
   "scripts": {
-    "postinstall": "npm i -S node_modules/vue-check/rules/eslint-config-bc"
+    "postinstall": "npm i node_modules/vue-check/rules/eslint-config-bc"
   },
   "keywords": [],
   "author": "BCGen",
