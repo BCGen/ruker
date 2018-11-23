@@ -7,14 +7,15 @@
     "type": "git",
     "url": "https://github.com/BCGen/vue-check"
   },
-  "scripts": {
-    "postinstall": "echo hi"
-  },
+ 
   "keywords": [],
   "author": "BCGen",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BCGen/vue-check/issues"
   },
-  "homepage": "https://github.com/BCGen/vue-check#readme"
+  "homepage": "https://github.com/BCGen/vue-check#readme",
+  "dependencies": {
+     "stylelint": "^9.8.0"
+  }
 }

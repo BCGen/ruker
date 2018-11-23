@@ -17,3 +17,7 @@ VS Code ts-check, eslint, stylelint settings.
 5. choose: JSON
 6. type: ``y`` or ``yes``
 5. put all files and forder in workspace root or resources folders.
+
+ "scripts": {
+    "postinstall": "cd ../.. && npm i -S node_modules/vue-check/rules/eslint-config-bc"
+  },
