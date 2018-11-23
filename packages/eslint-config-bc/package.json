@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-bc",
+  "version": "0.1.0",
+  "description": "eslint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BCGen/vue-check"
+  },
+  "main": "index.js",
+  "author": "BCGen",
+  "keywords": [
+    "eslint"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^4.7.1"
+  }
+}
