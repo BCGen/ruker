@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/BCGen/vue-check#readme",
   "dependencies": {
-    "eslint-config-bc": "github:BCGen/eslint-config-bc/"
+    "eslint-config-bc": "https://github.com/BCGen/eslint-config-bc.git"
   }
 }
