@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BCGen/vue-check.git"
+    "url": "https://github.com/BCGen/vue-check"
   },
   "keywords": [],
   "author": "BCGen",
