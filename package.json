@@ -1,5 +1,5 @@
 {
-  "name": "bc-rule",
+  "name": "rule-bc",
   "version": "0.1.0",
   "description": "VS Code ts-check, eslint, stylelint settings.",
   "main": "index.js",
