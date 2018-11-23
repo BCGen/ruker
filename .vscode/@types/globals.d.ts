@@ -14,3 +14,6 @@
 //   import Vue from 'vue'
 //   export default Vue
 // }
+
+declare var h: () => {}
+// declare var ii: String

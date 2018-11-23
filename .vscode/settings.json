@@ -1,0 +1,13 @@
+{
+  // Javascript and TypeScript
+  "javascript.implicitProjectConfig.checkJs": true,
+
+  // Prettire
+  "prettier.eslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+
+  // Stylelint
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
+}
