@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "stylelint",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BCGen/vue-check"
+  },
   "keywords": [
     "stylelint"
   ],
