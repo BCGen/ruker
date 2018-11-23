@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/BCGen/vue-check"
   },
+  "scripts": {
+    "postinstall": "npm i -S /rules/eslint-config-bc"
+  },
   "keywords": [],
   "author": "BCGen",
   "license": "MIT",
@@ -14,8 +17,4 @@
     "url": "https://github.com/BCGen/vue-check/issues"
   },
   "homepage": "https://github.com/BCGen/vue-check#readme",
-  "dependencies": {
-    "eslint-config-bc": "file:rules/eslint-config-bc",
-    "stylelint-config-bc": "file:rules/stylelint-config-bc"
-  }
 }
