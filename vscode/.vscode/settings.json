@@ -1,4 +1,23 @@
 {
+  // Editor
+  "editor.formatOnSave": true,
+
+  // Eslint
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [{
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+
   // Javascript and TypeScript
   "javascript.implicitProjectConfig.checkJs": true,
 
@@ -9,5 +28,5 @@
   // Stylelint
   "css.validate": false,
   "less.validate": false,
-  "scss.validate": false
+  "scss.validate": false,
 }
