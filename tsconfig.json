@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "outDir": "./public/js"
+    },
+    "include": [
+        ".vscode/@types/*.d.ts",
+        "resources/**/*.js",
+        "resources/**/*.ts",
+        "src/**/*.js",
+        "src/**/*.ts"
+    ],
+    "exclude": ["node_modules", "**/node_modules/*"]
+}

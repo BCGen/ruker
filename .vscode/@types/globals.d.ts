@@ -1,19 +1,18 @@
-// interface Window {
-//   axios: import('axios').AxiosStatic
-//   Vue: import('vue').VueConstructor
+// declare global {
+//   interface Window {
+//     axios: import("axios").AxiosStatic;
+//     Vue: import("vue").VueConstructor;
+//   }
+
+//   interface CSRF_TOKEN_TYPE extends Element {
+//     content: String;
+//   }
+
+//   var axios: typeof window.axios;
+//   var Vue: typeof window.Vue;
+
+//   module "*.vue" {
+//     import Vue from "vue";
+//     export default Vue;
+//   }
 // }
-
-// interface CSRF_TOKEN_TYPE extends Element {
-//   content: String
-// }
-
-// declare var axios: typeof window.axios
-// declare var Vue: typeof window.Vue
-
-// declare module '*.vue' {
-//   import Vue from 'vue'
-//   export default Vue
-// }
-
-declare var h: () => {}
-// declare var ii: String

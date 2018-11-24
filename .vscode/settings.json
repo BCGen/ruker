@@ -14,9 +14,6 @@
     }
   ],
 
-  // Javascript and TypeScript
-  "javascript.implicitProjectConfig.checkJs": true,
-
   // Prettire
   "prettier.eslintIntegration": true,
   "prettier.stylelintIntegration": true,
