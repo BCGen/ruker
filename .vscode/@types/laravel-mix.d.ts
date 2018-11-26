@@ -1,78 +1,74 @@
-declare module "laravel-mix" {
-  // @ts-ignore
-  import Webpack = require("webpack");
-  // @ts-ignore
-  import { Options as BrowserSyncOptions } from "browser-sync";
-  // @ts-ignore
-  import { Options as AutoPreFixerOptions } from "autoprefixer";
-  // @ts-ignore
-  import { Options as NodeSassOptions } from "node-sass";
+declare module 'laravel-mix' {
+  import Webpack = require('webpack')
+  import { Options as BrowserSyncOptions } from 'browser-sync'
+  import { Options as AutoPreFixerOptions } from 'autoprefixer'
+  import { Options as NodeSassOptions } from 'node-sass'
 
   interface LaravelMix {
     // Javascript
-    js(src: string | string[], output: string): LaravelMix;
-    react(src: string | string[], output: string): LaravelMix;
+    js(src: string | string[], output: string): LaravelMix
+    react(src: string | string[], output: string): LaravelMix
 
     // Library Code Splitting
-    extract(src: Array<string>): LaravelMix;
+    extract(src: Array<string>): LaravelMix
 
     // BrowserSync
-    browserSync(option: string | BrowserSyncOptions): LaravelMix;
+    browserSync(option: string | BrowserSyncOptions): LaravelMix
 
     // Versioning
-    version(): LaravelMix;
+    version(): LaravelMix
 
     // CSS Preprocessors
-    less(src: string, output: string, options?: object): LaravelMix;
-    postCss(src: string, output: string, options: any[]): LaravelMix;
-    sass(src: string, output: string, options?: NodeSassOptions): LaravelMix;
-    standaloneSass(src: string, output: string, options?: object): LaravelMix;
-    stylus(src: string, output: string, options?: object): LaravelMix;
+    less(src: string, output: string, options?: object): LaravelMix
+    postCss(src: string, output: string, options: any[]): LaravelMix
+    sass(src: string, output: string, options?: NodeSassOptions): LaravelMix
+    standaloneSass(src: string, output: string, options?: object): LaravelMix
+    stylus(src: string, output: string, options?: object): LaravelMix
 
     // Copying Files
-    copy(from: string | Array<string>, to: string): LaravelMix;
-    copyDirectory(fromDir: string, toDir: string): LaravelMix;
+    copy(from: string | Array<string>, to: string): LaravelMix
+    copyDirectory(fromDir: string, toDir: string): LaravelMix
 
     // OS Notifications
-    disableNotifications(): LaravelMix;
+    disableNotifications(): LaravelMix
 
     // Concatenation and Minification
-    combine(src: string[], destination: string): LaravelMix;
-    babel(src: string[], destination: string): LaravelMix;
-    minify(src: string | string[]): LaravelMix;
+    combine(src: string[], destination: string): LaravelMix
+    babel(src: string[], destination: string): LaravelMix
+    minify(src: string | string[]): LaravelMix
 
     // Autoloading
-    autoload(options: { [key: string]: [string, string] }): LaravelMix;
+    autoload(options: { [key: string]: [string, string] }): LaravelMix
 
     // Event Hooks
-    then(cb: (stats?: Webpack.Stats) => void): LaravelMix;
+    then(cb: (stats?: Webpack.Stats) => void): LaravelMix
 
     // Quick Webpack Configuration
     webpackConfig(
       config: Webpack.Configuration | ((webpack: typeof Webpack) => void)
-    ): LaravelMix;
+    ): LaravelMix
 
     // Extending Mix
-    extend(name: string, extendOption: any): LaravelMix;
+    extend(name: string, extendOption: any): LaravelMix
 
     // Laravel Mix Options
     options(option: {
-      autoprefixer?: boolean | AutoPreFixerOptions;
-      clearConsole?: boolean;
-      extractVueStyles?: boolean;
-      processCssUrls?: boolean;
-      uglify?: object;
-      purifyCss?: boolean | object;
-      postCss?: any[];
+      autoprefixer?: boolean | AutoPreFixerOptions
+      clearConsole?: boolean
+      extractVueStyles?: boolean
+      processCssUrls?: boolean
+      uglify?: object
+      purifyCss?: boolean | object
+      postCss?: any[]
       hmrOptions?: {
-        host: string;
-        port: number;
-      };
-    }): LaravelMix;
+        host: string
+        port: number
+      }
+    }): LaravelMix
   }
 
-  type CssType = (src: string, output: string, options?: object) => LaravelMix;
+  type CssType = (src: string, output: string, options?: object) => LaravelMix
 
-  var laravelMixType: LaravelMix;
-  export = laravelMixType;
+  var laravelMixType: LaravelMix
+  export = laravelMixType
 }
