@@ -1,5 +1,10 @@
 {
+  // Text Editor
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
   // Eslint
+  "eslint.autoFixOnSave": true,
   "eslint.validate": [{
       "language": "javascript",
       "autoFix": true
@@ -15,8 +20,10 @@
   ],
 
   // Prettire
-  "prettier.eslintIntegration": true,
+  // "prettier.eslintIntegration": true,
   "prettier.stylelintIntegration": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
 
   // Stylelint
   "css.validate": false,
