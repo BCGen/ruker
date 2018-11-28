@@ -11,11 +11,11 @@
   "author": "BCGen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BCGen/vue-check/issues"
+    "url": "https://github.com/BCGen/bc-rule/issues"
   },
-  "homepage": "https://github.com/BCGen/vue-check#readme",
+  "homepage": "https://github.com/BCGen/bc-rule#readme",
   "dependencies": {
     "eslint-config-bc": "github:BCGen/eslint-config-bc",
-    "stylelint-config-bc": "github:BCGen/stylelint-config-bc"
+    "stylelint-config-bc": "git+https://github.com/BCGen/stylelint-config-bc.git"
   }
 }
