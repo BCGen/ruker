@@ -1,11 +1,11 @@
 {
   "name": "bc-rule",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "VS Code ts-check, eslint, stylelint settings.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BCGen/vue-check"
+    "url": "https://github.com/BCGen/bc-rule"
   },
   "keywords": [],
   "author": "BCGen",
