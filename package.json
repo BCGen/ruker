@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/BCGen/bc-rule#readme",
   "dependencies": {
-    "eslint-config-bc": "https://github.com/BCGen/eslint-config-bc.git",
-    "stylelint-config-bc": "https://github.com/BCGen/stylelint-config-bc.git"
+    "eslint-config-bc": "BCGen/eslint-config-bc",
+     "stylelint-config-bc": "BCGen/stylelint-config-bc"
   }
 }
