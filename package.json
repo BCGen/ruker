@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/BCGen/vue-check#readme",
   "dependencies": {
+    "@types/swiper": "^4.2.4",
     "eslint-config-bc": "github:BCGen/eslint-config-bc",
     "stylelint-config-bc": "github:BCGen/stylelint-config-bc"
   }
