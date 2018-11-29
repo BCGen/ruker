@@ -1,21 +1,21 @@
 {
   "name": "bc-rule",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "VS Code ts-check, eslint, stylelint settings.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BCGen/vue-check"
+    "url": "https://github.com/BCGen/bc-rule"
   },
   "keywords": [],
   "author": "BCGen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BCGen/vue-check/issues"
+    "url": "https://github.com/BCGen/bc-rule/issues"
   },
-  "homepage": "https://github.com/BCGen/vue-check#readme",
+  "homepage": "https://github.com/BCGen/bc-rule#readme",
   "dependencies": {
-    "@types/swiper": "^4.2.4",
+    "@types/swiper": "latest",
     "eslint-config-bc": "github:BCGen/eslint-config-bc",
     "stylelint-config-bc": "github:BCGen/stylelint-config-bc"
   }
