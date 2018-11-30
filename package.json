@@ -1,20 +1,33 @@
 {
-  "name": "bc-rule",
+  "name": "ruker",
   "version": "1.0.0",
-  "description": "VS Code ts-check, eslint, stylelint settings.",
+  "description": "vscode rule and check maker",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BCGen/bc-rule"
+  "bin": {
+    "ruker": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "BCGen",
+  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BCGen/bc-rule/issues"
-  },
-  "homepage": "https://github.com/BCGen/bc-rule#readme",
   "dependencies": {
-    "@types/swiper": "latest"
-  }
+    "colors": "^1.3.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "edit-json-file": "^1.2.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BCGen/ruker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BCGen/ruker/issues"
+  },
+  "homepage": "https://github.com/BCGen/ruker#readme"
 }
