@@ -55,7 +55,7 @@ function javaScriptSetting() {
   console.log("package.json編輯完成。");
 
   console.log("安裝相關套件...");
-  shell.exec(`npm install`);
+  shell.exec(`npm install --no-progress`);
   console.log("套件安裝完成。");
   console.log("");
 
