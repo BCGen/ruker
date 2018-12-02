@@ -86,24 +86,9 @@ function javaScriptSetting() {
 
 function laravelSetting() {
   console.log("開始 laravel 設定");
-  console.log("安裝 barryvdh/laravel-ide-helper...");
-  shell.exec("composer require --dev barryvdh/laravel-ide-helper");
-  console.log("barryvdh/laravel-ide-helper 安裝成功。");
-  console.log("");
-
-  console.log("安裝 doctrine/dbal...");
-  shell.exec("composer require --dev doctrine/dbal");
-  console.log("doctrine/dbal 安裝成功。");
-  console.log("");
-
-  console.log("安裝 barryvdh/laravel-debugbar...");
-  shell.exec("composer require --dev barryvdh/laravel-debugbar");
-  console.log("barryvdh/laravel-debugbar 安裝成功。");
-  console.log("");
-
-  console.log("安裝 nunomaduro/larastan...");
-  shell.exec("composer require --dev nunomaduro/larastan");
-  console.log("nunomaduro/larastan 安裝成功。");
+  console.log("安裝 laravel開發套件...");
+  shell.exec("composer require --dev barryvdh/laravel-ide-helper doctrine/dbal barryvdh/laravel-debugbar nunomaduro/larastan");
+  console.log("laravel開發套件安裝完成。");
   console.log("");
 
   console.log("執行 php artisan ide-helper:generate...");
