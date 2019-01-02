@@ -59,13 +59,13 @@ function javaScriptSetting() {
   console.log("套件安裝完成。");
   console.log("");
 
-  copyFiles([
+  copyFiles(
     ".vscode",
     ".eslintrc.yml",
     ".stylelintrc.yml",
     ".editorconfig",
     "tsconfig.json"
-  ]);
+  );
 
   console.log("檢查工作區是否有 .gitignore");
   if (!shell.test("-f", "./.gitignore")) {
@@ -110,12 +110,13 @@ function writePackageJson() {
   );
 }
 
-function copyFiles(fileName) {
-  console.log(`複製${fileName}至工作區...`);
-  shell.cp("-Rf", `./node_modules/ruker-rule/${fileName}`, "./");
-  console.log("複製完成。");
-  console.log("");
-
+function copyFiles(...files) {
+  files.forEach(fileName => {
+    console.log(`複製${fileName}至工作區...`);
+    shell.cp("-Rf", `./node_modules/ruker-rule/${fileName}`, "./");
+    console.log("複製完成。");
+    console.log("");
+  });
 }
 
 function finishMessage() {
