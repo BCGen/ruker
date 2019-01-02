@@ -59,25 +59,18 @@ function javaScriptSetting() {
   console.log("套件安裝完成。");
   console.log("");
 
-  console.log("複製.vscode至工作區...");
-  shell.cp("-Rf", "./node_modules/bc-rule/.vscode", "./");
-  console.log("複製完成。");
-  console.log("");
-
-  console.log("複製.editorconfig至工作區...");
-  shell.cp("-Rf", "./node_modules/bc-rule/.editorconfig", "./");
-  console.log("複製完成。");
-  console.log("");
-
-  console.log("複製tsconfig.json至工作區...");
-  shell.cp("-Rf", "./node_modules/bc-rule/tsconfig.json", "./");
-  console.log("複製完成。");
-  console.log("");
+  copyFiles([
+    ".vscode",
+    ".eslintrc.yml",
+    ".stylelintrc.yml",
+    ".editorconfig",
+    "tsconfig.json"
+  ]);
 
   console.log("檢查工作區是否有 .gitignore");
-  if (!shell.test("-f","./.gitignore")) {
+  if (!shell.test("-f", "./.gitignore")) {
     console.log("複製.gitignore至工作區...");
-    shell.cp("-Rf", "./node_modules/bc-rule/gitignore", "./.gitignore");
+    shell.cp("-Rf", "./node_modules/ruker-rule/gitignore", "./.gitignore");
   }
 
   console.log("javaScript 設定完成。");
@@ -87,7 +80,9 @@ function javaScriptSetting() {
 function laravelSetting() {
   console.log("開始 laravel 設定");
   console.log("安裝 laravel開發套件...");
-  shell.exec("composer require --dev barryvdh/laravel-ide-helper doctrine/dbal barryvdh/laravel-debugbar nunomaduro/larastan");
+  shell.exec(
+    "composer require --dev barryvdh/laravel-ide-helper doctrine/dbal barryvdh/laravel-debugbar"
+  );
   console.log("laravel開發套件安裝完成。");
   console.log("");
 
@@ -104,22 +99,23 @@ function writePackageJson() {
   });
 
   console.log(`設定 devDependencies...`);
-  file.set("devDependencies.bc-rule", "github:BCGen/bc-rule");
-  file.set("devDependencies.eslint-config-bc", "github:BCGen/eslint-config-bc");
+  file.set("devDependencies.ruker-rule", "github:BCGen/ruker-rule");
   file.set(
-    "devDependencies.stylelint-config-bc",
-    "github:BCGen/stylelint-config-bc"
+    "devDependencies.eslint-config-ruker",
+    "github:BCGen/eslint-config-ruker"
   );
+  file.set(
+    "devDependencies.stylelint-config-ruker",
+    "github:BCGen/stylelint-config-ruker"
+  );
+}
 
-  console.log(`設定 eslintConfig 路徑...`);
-  file.set("eslintConfig", {
-    extends: ["./.vscode/eslint/.eslintrc.yml"]
-  });
+function copyFiles(fileName) {
+  console.log(`複製${fileName}至工作區...`);
+  shell.cp("-Rf", `./node_modules/ruker-rule/${fileName}`, "./");
+  console.log("複製完成。");
+  console.log("");
 
-  console.log(`設定 stylelint 路徑...`);
-  file.set("stylelint", {
-    extends: ["./.vscode/stylelint/.stylelintrc.yml"]
-  });
 }
 
 function finishMessage() {
